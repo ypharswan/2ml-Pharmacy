@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    background: linear-gradient(45deg, #fff, #e3f2fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+footer {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%) !important;
+}
+
+.map-container iframe {
+    transition: transform 0.3s ease;
+}
+
+.map-container iframe:hover {
+    transform: scale(1.02);
+}
+
+.medicine-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.medicine-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.medicine-icon {
+    font-size: 3rem;
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+.price-tag {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.cart-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.qty-controls {
+    background: #f8f9fa;
+    border-radius: 20px;
+    padding: 0.25rem;
+}
+
+.qty-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #0d6efd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qty-btn:hover {
+    background: #0b5ed7;
+}
+
+.empty-cart {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem;
+}
